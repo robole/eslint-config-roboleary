@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-roboleary",
   "author": "Rob O'Leary",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "My ESLint config that makes a happy marriage with Prettier",
   "repository": "git@github.com:robole/eslint-config-roboleary.git",
   "license": "ISC",

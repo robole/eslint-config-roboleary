@@ -24,6 +24,7 @@ module.exports = {
     "func-names": "off",
     "no-use-before-define": "off",
     "prefer-const": "off",
-    "radix":"off"
+    "radix":"off",
+    "no-plusplus":{ "allowForLoopAfterthoughts": true }
   },
 };

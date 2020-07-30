@@ -25,6 +25,6 @@ module.exports = {
     "no-use-before-define": "off",
     "prefer-const": "off",
     "radix":"off",
-    "no-plusplus":["on",{ "allowForLoopAfterthoughts": true }]
+    "no-plusplus":["error",{ "allowForLoopAfterthoughts": true }]
   },
 };

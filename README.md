@@ -23,16 +23,16 @@ It includes the following:
 
 1. You can add scripts to your _package.json_ to lint, fix, and format your code from the command-line.
 
-   ```json
-	 {
-			"scripts": {
-				"lint": "eslint .",
-				"lint:fix": "npm run lint -- --fix",
-				"prettier": "prettier src test --check",
-				"prettier:fix": "npm run prettier -- --write",
-			},
-	}
-   ```
+```json
+{
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "npm run lint -- --fix",
+		"prettier": "prettier src test --check",
+		"prettier:fix": "npm run prettier -- --write",
+	},
+}
+```
 
 ## Configuration in VS Code
 
@@ -49,7 +49,6 @@ To format and lint on save, you can update your user settings with the following
       "vue"
   ],
   "editor.formatOnSave": false,
-  // Runs Prettier, then ESLint
   "editor.codeActionsOnSave": [
     "source.formatDocument",
     "source.fixAll.eslint"

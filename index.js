@@ -4,7 +4,6 @@ module.exports = {
     es2020: true,
     mocha: true,
   },
-  plugins: ["html"],
   extends: [
     "airbnb-base",
     "prettier", // makes sure this is last in the list

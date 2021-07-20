@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-roboleary",
   "author": "Rob O'Leary",
-  "version": "0.2.7",
-  "description": "My general ESLint config that I use along side Prettier",
+  "version": "0.2.8",
+  "description": "My vanilla JS ESLint config. I use it alongside Prettier, the rules compensate for this.",
   "repository": {
     "type": "git",
     "url": "https://github.com/robole/eslint-config-roboleary.git"
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": ">=8.3.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4"
+    "eslint-config-airbnb-base": ">=14.2.1",
+    "eslint-plugin-import": ">=2.23.4"
   }
 }

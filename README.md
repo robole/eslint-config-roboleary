@@ -10,7 +10,7 @@ It includes the following:
 
 ## Installation
 
-1. Install this package with `npm i eslint-config-roboleary`.
+1. Install this package, ESLint and Prettier as devwith `npx install-peerdeps --dev eslint-config-roboleary`.
 1. Create an eslint config file in the root of your project directory e.g. _.eslintrc_. Add the following:
 
    ```json
@@ -25,11 +25,11 @@ It includes the following:
 
 ```json
 {
-	"scripts": {
-		"lint": "eslint .",
-		"lint:fix": "npm run lint -- --fix",
-		"prettier": "prettier src test --check",
-		"prettier:fix": "npm run prettier -- --write",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier src test --check",
+    "prettier:fix": "npm run prettier -- --write",
 	},
 }
 ```
@@ -38,7 +38,7 @@ It includes the following:
 
 If you want to use ES Lint and Prettier in VS Code, I recommend installing the extensions: [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), and [Format Code Action](https://marketplace.visualstudio.com/items?itemName=rohit-gohri.format-code-action&ssr=false#review-details).
 
-To format and lint on save, you can update your user settings with the following:
+To format and lint code on save, you can update your user settings with the following:
 
 ```json
 {
@@ -55,5 +55,3 @@ To format and lint on save, you can update your user settings with the following
   ],
 }
 ```
-
-If you use the Vetur plugin, ensure that Vetur's template validation does not interfere with linting. The setting is `"vetur.validation.template": false`, it is `false` by default.

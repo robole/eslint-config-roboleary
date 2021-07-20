@@ -1,10 +1,21 @@
 {
   "name": "eslint-config-roboleary",
   "author": "Rob O'Leary",
-  "version": "0.2.5",
-  "description": "My ESLint config that makes a happy marriage with Prettier",
-  "repository": "git@github.com:robole/eslint-config-roboleary.git",
+  "version": "0.2.6",
+  "description": "My general ESLint config that I use along side Prettier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robole/eslint-config-roboleary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robole/eslint-config-roboleary/issues"
+  },
+  "homepage": "https://github.com/robole/eslint-config-roboleary#readme",
   "license": "ISC",
+  "funding": {
+    "type": "individual",
+    "url": "https://ko-fi.com/roboleary"
+  },
   "keywords": [
     "javascript",
     "ecmascript",
@@ -15,35 +26,13 @@
     "prettier"
   ],
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --ext .js,.vue",
-    "lint:fix": "eslint --ext .js,.vue --fix .",
-    "format": "npx prettier --write ."
-  },
   "peerDependencies": {
-    "eslint": ">= 7.2",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-node": "^4.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jsx-a11y": "^6.3.0",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^4.0.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-vue": "^6.2.2",
-    "prettier": "^2.0.5"
+    "eslint": "^7.31.0",
+    "prettier": ">=2.3.2"
   },
-  "devDependencies": {
-    "eslint": "^7.5.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-node": "^4.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jsx-a11y": "^6.3.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^4.0.0",
-    "eslint-plugin-vue": "^6.2.2",
-    "prettier": "^2.0.5"
+  "dependencies": {
+    "eslint-config-airbnb-base": ">=14.2.1",
+    "eslint-config-prettier": ">=8.3.0",
+    "eslint-plugin-import": ">=2.23.4"
   }
 }

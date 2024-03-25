@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-roboleary",
   "author": "Rob O'Leary",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "My ESLint config for linting JavaScript along side Prettier without conflicts.",
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "eslint-config-prettier": ">=8.3.0",
-    "eslint-config-roboleary-base": ">=0.1.0"
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-roboleary-base": "^0.3.0"
   }
 }
